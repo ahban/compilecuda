@@ -11,3 +11,5 @@ We provide an example in the path of `test`
 > cd test  
 > addpath ..  
 > compilecuda('test_mex.cpp test_gpu.cu')
+
+**IF you think this script is useful for you, please leave me a star. Thanks~~**
