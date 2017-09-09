@@ -1,5 +1,11 @@
 This repository provides a matlab script to help you compile cuda source files.
 
+# Requirments
+
+Your kernel functions and functions used to invoke kernel functions must placed into `cu` files.
+You `mexFunction` must defined in a `cpp` file.
+
+
 # Usage
 
 ```matlab
