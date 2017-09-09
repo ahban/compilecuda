@@ -8,6 +8,6 @@ This repository provides a matlab script to help you compile cuda source files.
 
 We provide an example in the path of `test`
 
-> cd test
-> addpath ..
+> cd test  
+> addpath ..  
 > compilecuda('test_mex.cpp test_gpu.cu')
