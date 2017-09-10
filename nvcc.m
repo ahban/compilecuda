@@ -1,3 +1,7 @@
+% all rights reserved
+% author: Zhihua Ban
+% contact: sawpara@126.com
+
 function nvcc(varargin)
 
 nvcc_customer = strjoin(varargin);
