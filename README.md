@@ -22,4 +22,23 @@ We provide an example in the path of `test`
  compilecuda('test_mex.cpp test_gpu.cu')
 ```
 
+
+
+# Matlab NVCC 
+
+I also provide a `function` named `nvcc`. You can use it like a normal command prompt. For the example above.
+
+```matlab
+cd test
+addpath ..
+nvcc -O2 -c -w -arch sm_30  test_gpu.cu
+mex -O  test_mex.cpp test_gpu.obj -lcudart -L/the/path/of/cudart/lib
+```
+
+
+
+
+
+
+
 **IF you think this script is useful for you, please leave me a star. Thanks~~**
